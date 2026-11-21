@@ -202,7 +202,7 @@ service cloud.firestore {
 
     match /doors/{dayId} {
       allow get: if isValidDoorId(dayId);
-      allow list: if existing().day >= 1 && existing().day <= 24;
+      allow list: if true;
       allow create: if isAdmin()
         && isValidDoorId(dayId)
         && isValidDoor(incoming(), dayId)
