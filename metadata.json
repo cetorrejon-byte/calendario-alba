@@ -1,0 +1,6 @@
+{
+  "name": "Alba's Beauty Salón · Calendario de Adviento 2026",
+  "description": "Calendario de Adviento digital e interactivo de Alba's Beauty Salón (Alicante). 24 días de belleza, sorpresas y regalos exclusivos del 1 al 24 de diciembre de 2026.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
